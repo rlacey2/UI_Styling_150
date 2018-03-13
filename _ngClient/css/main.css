@@ -8,12 +8,28 @@ body {
     padding-top: 65px; 
 }
  
- 
+.oneSubject {    border: 3px solid #ffffff;  }  
  
 .oneSubject:hover {  color:blue;
 					 background-color : yellow;
 					 border: 3px solid #d0d0d0;
 				  } 
+ 
+ 
+.assessment:nth-child(even)  {background: #e0e0e0; border: 3px solid #e0e0e0;}  
+.assessment:nth-child(odd)   {background: #f1f1f1; border: 3px solid #f1f1f1;}	 
+
+.colA { background: #FFF6A2; } 
+.colB { background: magenta; }
+.colC { background: cyan; }
+.colD { background: lightblue; }
+
+div.colA,  div.colC, div.colD { font-size:3em;}  /* no rule for colB */
+
+
+div.colA:hover,  div.colB:hover ,div.colC:hover, div.colD:hover { background : red;}   
+
+
  
  
 /* bootstrap-notify */
