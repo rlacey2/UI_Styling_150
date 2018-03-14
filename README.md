@@ -1,17 +1,10 @@
-## 510 Modelling In JSON  - Data Structure vs Presentation
-#### February 2018  
+## 150 UI Styling
+#### March 2018  
 
 Cloud demos (if deployed) at:
-1. [Heroku](https://json510.herokuapp.com/#/v1)  
- 
+1. [Heroku](https://styling150.herokuapp.com)  finished product.
+2. [GitHub](https://github.com/rlacey2/json510)  starting point to clone to become styling150
 
-A teaching example of modelling data with two different structures and its presentation via nested ng-repeats.
-
-An issue for the designer/programmer would occur when using one of the models and requiring both presentations.
-
-Each version facilitates one of the presentations easily, however, more coding work is required to represent as the alternate version.
-
-
-Essentially think about the model and the presentation consequences.
+Take an existing project and add some simple styling as proof of concept using Bootstrap and user CSS.
 
  
